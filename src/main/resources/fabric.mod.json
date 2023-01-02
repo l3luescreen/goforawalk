@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "goforawalk",
+  "version": "${version}",
+  "name": "Goforawalk",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/goforawalk/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.iamkanz.goforawalk.client.GoforawalkClient"
+    ],
+    "main": [
+      "com.iamkanz.goforawalk.Goforawalk"
+    ]
+  },
+  "mixins": [
+    "goforawalk.mixins.json"
+  ],
+  "accessWidener": "goforawalk.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
